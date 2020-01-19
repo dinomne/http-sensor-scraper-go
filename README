@@ -1,0 +1,9 @@
+#requires:
+
+Following go libraries (`go get -u`):
+	"github.com/influxdata/influxdb-client-go"
+	"github.com/gocolly/colly"
+
+Also assumes a localhost influxDB.
+
+This version only scrapes single specific web sensor, tho it would be simple to extend it to work with other sensors and mesurements.
